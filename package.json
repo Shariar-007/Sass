@@ -1,0 +1,24 @@
+{
+    "name": "Sass",
+    "version": "1.0.0",
+    "description": "Sass practice",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "sass ./sass/index.scss ./css/style.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Shariar-007/Sass.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Shariar-007/Sass/issues"
+    },
+    "homepage": "https://github.com/Shariar-007/Sass#readme",
+    "devDependencies": {
+        "sass": "^1.23.0"
+    }
+}

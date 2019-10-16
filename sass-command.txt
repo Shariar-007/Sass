@@ -1,0 +1,7 @@
+node -v
+npm -v
+npm init -y //to create package.json file
+npm i sass -D // to create node_modules
+npm start // to convert scss file into css and create automatically css file in css folder. before running this command 
+          //we need to change in package.json file. while this line within script{"start": "sass ./sass/index.scss ./css/style.css --watch"}
+          // every time we need to run this command to see the effect in the browser 
