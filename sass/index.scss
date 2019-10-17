@@ -1,7 +1,5 @@
-// body {
-//     padding: 1em;
-//     background: lightblue;
-// }
+@import 'default'; // topic: partials, description: create partials file and naming starting with '_' but at the time of import don't use 
+// it
 $primary-color: #e5e5e5;
 $primary-font: sans-sarif,
 'cursive';
@@ -9,4 +7,42 @@ body {
     padding: 1em;
     background: $primary-color;
     font-family: $primary-font;
+}
+
+// nested
+.container {
+    width: 100%;
+    height: 100%;
+    nav {
+        ul {
+            li {
+                font-size: 1em;
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+@mixin transform_Me ($prop1, $prop2) {
+    width: $prop1;
+    height: $prop2;
+    background-color: yellow;
+    -ms-transform: rotate(20deg) scale(1.5);
+    -webkit-transform: rotate(20deg) scale(1.5);
+}
+
+.transform {
+    @include transform_Me(400px, 500px);
+    font-size: 3em;
+}
+
+.transform2 {
+    @include transform_Me(500px, 500px)
+}
+
+%extend-border {
+    font-size: 24px;
+    border: 1px solid #e5e5e5;
 }
