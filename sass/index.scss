@@ -34,7 +34,7 @@ body {
 }
 
 .transform {
-    @include transform_Me(400px, 500px);
+    @include transform_Me(20px, 20px);
     font-size: 3em;
 }
 
@@ -45,4 +45,53 @@ body {
 %extend-border {
     font-size: 24px;
     border: 1px solid #e5e5e5;
+}
+
+border {
+    @extend border;
+}
+
+// pseudo Selector
+.element {
+    a {
+        text-decoration: brown;
+        font-size: 1em;
+        margin-left: 250px;
+        &:hover {
+            text-decoration: cornflowerblue;
+            font-size: 2em;
+        }
+    }
+}
+
+// operator 
+.addition {
+    font-size: 6px + 2px; // or 6px + 2;
+}
+
+.substraction {
+    font-size: 6px - 2px; // or 6px - 2;
+}
+
+.multiplication {
+    width: 20%*5;
+    font-size: 6px*2; // 6px*2px; wrong way for multiplication
+}
+
+.division {
+    font-size: (6px / 2px); // or (6px / 2);
+}
+
+p {
+    &:before {
+        content: "I am a string with "+ quate + ". ";
+        font-family: cursive + "serif";
+    }
+}
+
+h6 {
+    &:after {
+        content: ". I am a end with "+ quate + ". ";
+        font-family: cursive + "serif";
+    }
 }

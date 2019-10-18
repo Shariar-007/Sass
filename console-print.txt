@@ -1,0 +1,241 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\shari\Desktop\Learn Angular\Sass> node -v
+v12.4.0
+PS C:\Users\shari\Desktop\Learn Angular\Sass> npm -v
+6.11.3
+PS C:\Users\shari\Desktop\Learn Angular\Sass> npm init -y
+Wrote to C:\Users\shari\Desktop\Learn Angular\Sass\package.json:
+
+{
+  "name": "Sass",
+  "version": "1.0.0",
+  "description": "Sass practice",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shariar-007/Sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shariar-007/Sass/issues"
+  },
+  "homepage": "https://github.com/Shariar-007/Sass#readme"
+}
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shariar-007/Sass/issues"
+  },
+  "homepage": "https://github.com/Shariar-007/Sass#readme"
+}
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.1 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})  
+
++ sass@1.23.0
+added 15 packages from 18 contributors and audited 20 packages in 11.073s
+found 0 vulnerabilities
+
+PS C:\Users\shari\Desktop\Learn Angular\Sass>
+
+PS C:\Users\shari\Desktop\Learn Angular\Sass> npm start
+
+> Sass@1.0.0 start C:\Users\shari\Desktop\Learn Angular\Sass
+> sass./index.scss./css/style.css
+
+'sass.' is not recognized as an internal or external command,
+npm ERR! Sass@1.0.0 start: `sass./index.scss./css/style.css`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the Sass@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\shari\AppData\Roaming\npm-cache\_logs\2019-10-16T21_33_06_079Z-debug.log
+PS C:\Users\shari\Desktop\Learn Angular\Sass> cd ..
+PS C:\Users\shari\Desktop\Learn Angular> cd SASS
+PS C:\Users\shari\Desktop\Learn Angular\SASS> npm start
+
+> Sass@1.0.0 start C:\Users\shari\Desktop\Learn Angular\SASS
+> sass./index.scss./css/style.css
+
+'sass.' is not recognized as an internal or external command,
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! Sass@1.0.0 start: `sass./index.scss./css/style.css`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the Sass@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\shari\AppData\Roaming\npm-cache\_logs\2019-10-16T21_34_29_348Z-debug.log
+PS C:\Users\shari\Desktop\Learn Angular\SASS> npm start
+
+> Sass@1.0.0 start C:\Users\shari\Desktop\Learn Angular\SASS
+> sass./index.scss./css/style.css
+
+'sass.' is not recognized as an internal or external command,
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! Sass@1.0.0 start: `sass./index.scss./css/style.css`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the Sass@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR!
+npm ERR! Failed at the Sass@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\shari\AppData\Roaming\npm-cache\_logs\2019-10-16T21_35_52_251Z-debug.log
+PS C:\Users\shari\Desktop\Learn Angular\SASS> npm start
+
+> Sass@1.0.0 start C:\Users\shari\Desktop\Learn Angular\SASS
+> sass ./sass/index.scss ./css/style.css
+
+PS C:\Users\shari\Desktop\Learn Angular\SASS> npm start
+
+> Sass@1.0.0 start C:\Users\shari\Desktop\Learn Angular\SASS
+> sass ./sass/index.scss ./css/style.css --watch
+
+Sass is watching for changes. Press Ctrl-C to stop.
+
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Terminate batch job (Y/N)? y
+PS C:\Users\shari\Desktop\Learn Angular\SASS> npm start
+
+PS C:\Users\shari\Desktop\Learn Angular\SASS> npm start
+
+> Sass@1.0.0 start C:\Users\shari\Desktop\Learn Angular\SASS
+> sass ./sass/index.scss ./css/style.css --watch
+
+Sass is watching for changes. Press Ctrl-C to stop.
+
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Terminate batch job (Y/N)? y
+PS C:\Users\shari\Desktop\Learn Angular\SASS> npm start
+
+> Sass@1.0.0 start C:\Users\shari\Desktop\Learn Angular\SASS
+> sass ./sass/index.scss ./css/style.css --watch
+
+Compiled sass\index.scss to css\style.css.
+Sass is watching for changes. Press Ctrl-C to stop.
+
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Error: expected ";".
+   ╷
+37 │     @include transform_Me(400px, 500px) font-size: 3em;
+   │                                         ^
+   ╵
+  sass\index.scss 37:41  root stylesheet
+
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Error: 12px*px isn't a valid CSS value.
+   ╷
+77 │     font-size: 6px * 2px; // or 6px * 2;
+   │                ^^^^^^^^^
+   ╵
+  sass\index.scss 77:16  root stylesheet
+
+Error: 12px*px isn't a valid CSS value.
+   ╷
+77 │     font-size: 6px*2px; // or 6px * 2;
+   │                ^^^^^^^
+   ╵
+  sass\index.scss 77:16  root stylesheet
+
+Error: 12px*px isn't a valid CSS value.
+   ╷
+77 │     font-size: (6px*2px); // or 6(px * 2);
+   │                ^^^^^^^^^
+   ╵
+  sass\index.scss 77:16  root stylesheet
+
+Error: 12px*px isn't a valid CSS value.
+   ╷
+77 │     font-size: (6px*2px); // or 6(px * 2);
+   │                ^^^^^^^^^
+   ╵
+  sass\index.scss 77:16  root stylesheet
+
+Error: 12px*px isn't a valid CSS value.
+   ╷
+77 │     font-size: (6px*2px); // or 6(px * 2);
+   │                ^^^^^^^^^
+   ╵
+  sass\index.scss 77:16  root stylesheet
+
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Error: 12px*px isn't a valid CSS value.
+   ╷
+78 │     font-size: 6px * 2px; // or 6px * 2;
+   │                ^^^^^^^^^
+   ╵
+  sass\index.scss 78:16  root stylesheet
+
+Error: 12px*px isn't a valid CSS value.
+   ╷
+78 │     font-size: 6px*2px; // or 6px*2;
+   │                ^^^^^^^
+   ╵
+  sass\index.scss 78:16  root stylesheet
+
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
+Compiled sass\index.scss to css\style.css.
